@@ -473,7 +473,8 @@ a {
     top: 200px;
     right: 50px;
 }
-.free-2{
+
+.free-2 {
     background-color: rgba(0, 0, 0, 0.5);
     /* Semi-transparent background */
     border-radius: 10px;
@@ -481,10 +482,11 @@ a {
     /* Apply the blur effect */
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     position: absolute;
-    bottom:  200px;
+    bottom: 200px;
     right: 300px;
 }
-.golla{
+
+.golla {
     border-radius: 50%;
     width: 20px;
     height: 20px;
@@ -495,201 +497,197 @@ a {
     .head12 {
         flex-direction: column;
     }
-.h-1-img {
-    width: 60%;
-    padding: 0 50px;
-    position: static;
-}
 
-.free {
-    background-color: rgba(0, 0, 0, 0.5);
-    /* Semi-transparent background */
-    border-radius: 10px;
-    backdrop-filter: blur(10px);
-    /* Apply the blur effect */
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-    position: absolute;
-    bottom: -200px;
-    right: 50px;
-}
-.free-2{
-    background-color: rgba(0, 0, 0, 0.5);
-    /* Semi-transparent background */
-    border-radius: 10px;
-    backdrop-filter: blur(10px);
-    /* Apply the blur effect */
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-    position: absolute;
-    bottom:  200px;
-    right: 300px;
-}
-    .press {
-        display: flex;
-    }
-
-    .kire {
-        flex-direction: column;
-    }
-
-    .run-extra {
-        flex-direction: column;
-        height: 100%;
-    }
-
-    .run {
-        width: 90%;
-    }
-
-    .run-img {
-        width: 95%;
-    }
-
-    .run-img-s {
-        width: 100%;
-    }
-
-    .boro {
-        font-size: 2rem
-    }
-
-    .exercise {
-        height: 300px;
-    }
-
-    .exercise div {
-        grid-template-columns: repeat(12, 1fr);
-        grid-template-rows: repeat(3, 1fr);
-
-
-    }
-
-    .image-1 {
-        grid-column: span 5;
-        height: 100px;
-    }
-
-    .image-2 {
-        grid-column: span 7;
-        height: 100px;
-    }
-
-    .image-3 {
-        grid-column: span 4;
-        height: 100px;
-    }
-
-    .image-4 {
-        grid-column: span 8;
-        height: 100px;
-    }
-
-    .image-5 {
-        grid-column: span 6;
-        height: 100px;
-    }
-
-    .image-6 {
-        grid-column: span 6;
-        height: 100px;
-        padding: 20px;
-    }
-
-
-    .boro2 {
-        font-size: 1rem;
-    }
-
-    .bmi {
-        flex-direction: column;
-    }
-
-    .bmi-table {
-        width: 95%;
-    }
-
-    table {
-        width: 100%;
-    }
-
-    .train {
-        grid-template-columns: repeat(3, 1fr);
-        height: 100%;
-        gap: 15px;
-        padding-bottom: 20px;
-    }
-
-    .train div {
-        height: 200px;
-        padding: 2px;
-        margin: 0;
-    }
-
-    .fottt {
-        flex-direction: column;
-    }
-
-    .fotlat {
-        justify-content: space-between;
-    }
-
-    .fotfit {
-        width: 70%;
-        margin: 20px;
-
-    }
-
-    .nav-ul {
-        display: none;
-    }
-
-    .choto {
-        display: flex;
-    }
-}
-
-@media screen and (min-width: 576px) and (max-width: 992px) {
     .h-1-img {
         width: 60%;
         padding: 0 50px;
         position: static;
     }
-    .head12 {
-        flex-direction: column;
-    }
 
-    .kire {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .run-extra {
-        height: 100%;
-    }
-
-    .bmi {
-        flex-direction: column;
-    }
-
-    .train {
-        padding-bottom: 20px;
-    }
-
-    .fottt {
-        flex-direction: column;
-    }
-
-    .fotlat {
-        justify-content: space-evenly;
-    }
-
-    .fotfit {
-        width: 70%;
-        margin: 20px;
-
-    }
-
-    .nav-ul {
+    .free {
         display: none;
+
+        .free-2 {
+            display: none;
+        }
+
+        .press {
+            display: flex;
+        }
+
+        .kire {
+            flex-direction: column;
+        }
+
+        .run-extra {
+            flex-direction: column;
+            height: 100%;
+        }
+
+        .run {
+            width: 90%;
+        }
+
+        .run-img {
+            width: 95%;
+        }
+
+        .run-img-s {
+            width: 100%;
+        }
+
+        .boro {
+            font-size: 2rem
+        }
+
+        .exercise {
+            height: 300px;
+        }
+
+        .exercise div {
+            grid-template-columns: repeat(12, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+
+
+        }
+
+        .image-1 {
+            grid-column: span 5;
+            height: 100px;
+        }
+
+        .image-2 {
+            grid-column: span 7;
+            height: 100px;
+        }
+
+        .image-3 {
+            grid-column: span 4;
+            height: 100px;
+        }
+
+        .image-4 {
+            grid-column: span 8;
+            height: 100px;
+        }
+
+        .image-5 {
+            grid-column: span 6;
+            height: 100px;
+        }
+
+        .image-6 {
+            grid-column: span 6;
+            height: 100px;
+            padding: 20px;
+        }
+
+
+        .boro2 {
+            font-size: 1rem;
+        }
+
+        .bmi {
+            flex-direction: column;
+        }
+
+        .bmi-table {
+            width: 95%;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        .train {
+            grid-template-columns: repeat(3, 1fr);
+            height: 100%;
+            gap: 15px;
+            padding-bottom: 20px;
+        }
+
+        .train div {
+            height: 200px;
+            padding: 2px;
+            margin: 0;
+        }
+
+        .fottt {
+            flex-direction: column;
+        }
+
+        .fotlat {
+            justify-content: space-between;
+        }
+
+        .fotfit {
+            width: 70%;
+            margin: 20px;
+
+        }
+
+        .nav-ul {
+            display: none;
+        }
+
+        .choto {
+            display: flex;
+        }
     }
 
-}
+    @media screen and (min-width: 576px) and (max-width: 992px) {
+      
+
+        .h-1-img {
+            width: 60%;
+            padding: 0 50px;
+            position: static;
+        }
+
+        .free {
+            display: none;
+
+            .free-2 {
+                display: none;
+            }
+
+            .head12 {
+                flex-direction: column;
+            }
+
+            .kire {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .run-extra {
+                height: 100%;
+            }
+
+            .bmi {
+                flex-direction: column;
+            }
+
+            .train {
+                padding-bottom: 20px;
+            }
+
+            .fottt {
+                flex-direction: column;
+            }
+
+            .fotlat {
+                justify-content: space-evenly;
+            }
+
+            .fotfit {
+                width: 70%;
+                margin: 20px;
+
+            }
+
+            .nav-ul {
+                display: none;
+            }
+
+        }
