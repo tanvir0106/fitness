@@ -495,7 +495,34 @@ a {
     .head12 {
         flex-direction: column;
     }
+.h-1-img {
+    width: 60%;
+    padding: 0 50px;
+    position: static;
+}
 
+.free {
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent background */
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    /* Apply the blur effect */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    bottom: -200px;
+    right: 50px;
+}
+.free-2{
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent background */
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    /* Apply the blur effect */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    bottom:  200px;
+    right: 300px;
+}
     .press {
         display: flex;
     }
@@ -621,7 +648,11 @@ a {
 }
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
-
+    .h-1-img {
+        width: 60%;
+        padding: 0 50px;
+        position: static;
+    }
     .head12 {
         flex-direction: column;
     }
