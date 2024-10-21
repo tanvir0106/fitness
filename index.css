@@ -1,0 +1,664 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Meow+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Meow+Script&family=Miniver&display=swap');
+
+body {
+    background-color: black;
+    color: white;
+    font-family: inter;
+}
+
+marto {
+    margin: auto;
+    max-width: 1400px;
+}
+
+.kire {
+    margin: auto;
+}
+
+/* shared font */
+
+.boro {
+    font-size: 3rem;
+    font-family: Inter;
+}
+
+.maje {
+    text-align: center;
+}
+
+.boro2 {
+    font-size: 2rem;
+    font-family: inter;
+}
+
+.para {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.centar {
+    text-align: center;
+}
+
+/* shared style */
+
+.flex {
+    display: flex;
+}
+
+.bg-org {
+    background: rgb(230, 83, 60);
+}
+
+.button {
+    padding: 7px 20px;
+    border-radius: 25px;
+    color: white;
+    width: 14rem;
+    height: 3rem;
+    font-size: 1.2rem;
+
+}
+
+.transparent {
+    background: transparent;
+    border: 2px solid white;
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nab {
+    list-style: none;
+    text-decoration: none;
+}
+
+.none {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/* headrer */
+
+header {
+    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
+
+}
+
+.rounded {
+    border-radius: 50%;
+}
+
+.hero-c {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+}
+
+.run {
+    width: 50%;
+}
+
+.run img {
+    width: 50%;
+}
+
+.hero-font {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 78px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.carv {
+    font-family: "Meow Script", cursive;
+}
+
+.h-1 {
+    width: 40%;
+}
+
+.h-1-img {
+    width: 60%;
+    text-align: center;
+}
+
+/* nav */
+.fitness {
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.nav-ul {
+    gap: 20px;
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
+    padding: 0px;
+    padding-right: 10px;
+    font-size: 1.2rem;
+}
+
+.home {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    border-radius: 20px;
+
+    background: rgb(230, 83, 60);
+    width: 92px;
+    height: 38px;
+    border: 2px solid red;
+
+}
+
+.nab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* exercise */
+.exercise {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(6, 4fr);
+    width: 98%;
+    height: 80vh;
+    min-height: 25rem;
+    margin: auto;
+}
+
+.l-left {
+    display: flex;
+    justify-content: flex-start;
+    /* Aligns content to the left */
+    align-items: flex-end;
+    padding: 20px;
+    font: inherit;
+
+}
+
+.u-left {
+    display: flex;
+    justify-content: flex-start;
+    /* Aligns content to the left */
+    align-items: flex-start;
+    padding: 20px;
+    font: inherit;
+}
+
+.u-right {
+    display: flex;
+    justify-content: flex-end;
+    /* Aligns content to the left */
+    align-items: flex-start;
+    padding: 20px;
+    font: inherit;
+}
+
+.image-1 {
+    grid-column: span 3;
+    grid-row: span 3;
+    background-image: linear-gradient(rgba(6, 255, 210, 0.5), rgba(6, 255, 210, 0.5)), url("images/exercise1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    /* border: 2px solid red; */
+}
+
+.image-3 {
+    grid-column: span 3;
+    grid-row: span 3;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/exercise3.png");
+    background-size: cover;
+
+
+}
+
+.image-2 {
+    grid-column: span 6;
+    grid-row: span 3;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.3), rgba(255, 0, 0, 0.3)), url("images/exercise2.png");
+    background-position: center;
+    /* Centers the image */
+    background-repeat: no-repeat;
+    /* Prevents repeating if the image is smaller than the element */
+    background-size: cover;
+
+}
+
+.image-4 {
+    grid-column: span 5;
+    grid-row: span 3;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/exercise4.png");
+    background-size: cover;
+
+}
+
+.image-5 {
+    grid-column: span 3;
+    grid-row: span 3;
+    background-image: linear-gradient(rgba(66, 255, 0, 0.3), rgba(66, 255, 0, 0.3)), url("images/exercise5.jpg");
+    background-size: cover;
+
+}
+
+.image-6 {
+    grid-column: span 4;
+    grid-row: span 3;
+    background-image: linear-gradient(rgba(0, 71, 255, 0.3), rgba(0, 71, 255, 0.3)), url("images/exercise6.jpg");
+    background-size: cover;
+    height: 100%;
+}
+
+.train {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 4fr);
+    width: 90%;
+    min-height: 25rem;
+    height: 90vh;
+    gap: 20px;
+    margin: auto;
+}
+
+.trainer-1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/trainer1.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: end;
+
+}
+
+.trainer-2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/trainer2.png");
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: end;
+    border-radius: 30px;
+}
+
+.trainer-3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/trainer3.png");
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: end;
+}
+
+.trainer-4 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/trainer4.png");
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: end;
+}
+
+.trainer-5 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/trainer5.png");
+    background-size: cover;
+    border-radius: 30px;
+    background-position: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: end;
+}
+
+.trainer-6 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/trainer6.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: end;
+
+}
+
+
+/* run extra */
+
+.run-extra {
+    justify-content: space-between;
+    padding: 20px;
+    background: rgb(34, 34, 34);
+    height: 40vh;
+}
+
+.run-img {
+    width: 60%;
+    overflow: hidden;
+    justify-content: right;
+}
+
+.run-img-s {
+    justify-content: right;
+
+    width: 60%;
+    height: 98%;
+    border-radius: 20px;
+
+}
+
+.run {
+    width: 40%;
+    padding: 30px;
+}
+
+/* bmi calculator */
+.bmi {
+    background: rgb(34, 34, 34);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+.bmi-table {
+    width: 40%;
+}
+
+table {
+    border: 2px solid white;
+    border-collapse: collapse;
+    height: 30vh;
+    width: 30vw;
+    text-align: center;
+}
+
+td {
+    border: 2px solid white;
+}
+
+.into {
+    width: 100%;
+    height: 2.5rem;
+    border-radius: 20px;
+    background: rgb(34, 34, 34);
+    border: 2px solid white;
+    margin: 10px;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+}
+
+.fottt {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fotfit {
+    width: 30%;
+}
+
+.lonk {
+    list-style: none;
+}
+
+footer {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.choto {
+    display: none;
+}
+
+.train {
+    background: rgb(34, 34, 34);
+}
+
+.h-1 {
+    width: 40%;
+}
+
+.h-1-img {
+    width: 60%;
+    padding: 0 50px;
+    position: relative;
+}
+
+.free {
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent background */
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    /* Apply the blur effect */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 200px;
+    right: 50px;
+}
+.free-2{
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent background */
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    /* Apply the blur effect */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    bottom:  200px;
+    right: 300px;
+}
+.golla{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    color: orange;
+}
+
+@media screen and (max-width: 576px) {
+    .head12 {
+        flex-direction: column;
+    }
+
+    .press {
+        display: flex;
+    }
+
+    .kire {
+        flex-direction: column;
+    }
+
+    .run-extra {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .run {
+        width: 90%;
+    }
+
+    .run-img {
+        width: 95%;
+    }
+
+    .run-img-s {
+        width: 100%;
+    }
+
+    .boro {
+        font-size: 2rem
+    }
+
+    .exercise {
+        height: 300px;
+    }
+
+    .exercise div {
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+
+
+    }
+
+    .image-1 {
+        grid-column: span 5;
+        height: 100px;
+    }
+
+    .image-2 {
+        grid-column: span 7;
+        height: 100px;
+    }
+
+    .image-3 {
+        grid-column: span 4;
+        height: 100px;
+    }
+
+    .image-4 {
+        grid-column: span 8;
+        height: 100px;
+    }
+
+    .image-5 {
+        grid-column: span 6;
+        height: 100px;
+    }
+
+    .image-6 {
+        grid-column: span 6;
+        height: 100px;
+        padding: 20px;
+    }
+
+
+    .boro2 {
+        font-size: 1rem;
+    }
+
+    .bmi {
+        flex-direction: column;
+    }
+
+    .bmi-table {
+        width: 95%;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    .train {
+        grid-template-columns: repeat(3, 1fr);
+        height: 100%;
+        gap: 15px;
+        padding-bottom: 20px;
+    }
+
+    .train div {
+        height: 200px;
+        padding: 2px;
+        margin: 0;
+    }
+
+    .fottt {
+        flex-direction: column;
+    }
+
+    .fotlat {
+        justify-content: space-between;
+    }
+
+    .fotfit {
+        width: 70%;
+        margin: 20px;
+
+    }
+
+    .nav-ul {
+        display: none;
+    }
+
+    .choto {
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+
+    .head12 {
+        flex-direction: column;
+    }
+
+    .kire {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .run-extra {
+        height: 100%;
+    }
+
+    .bmi {
+        flex-direction: column;
+    }
+
+    .train {
+        padding-bottom: 20px;
+    }
+
+    .fottt {
+        flex-direction: column;
+    }
+
+    .fotlat {
+        justify-content: space-evenly;
+    }
+
+    .fotfit {
+        width: 70%;
+        margin: 20px;
+
+    }
+
+    .nav-ul {
+        display: none;
+    }
+
+}
